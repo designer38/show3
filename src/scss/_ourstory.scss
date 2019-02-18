@@ -1,0 +1,97 @@
+.header-bg {
+    width:100%;
+    margin-top: 0.25rem;
+    background-image: url("bg naming.png");
+    background-size: cover;
+    background-color: $lightcolor;
+
+    height: 50vh;
+    display:table;
+    .content-box{
+        display:table-cell;
+        vertical-align: middle;
+        
+        .main-text {
+            font-size: 40px;
+            font-family: "lato";
+            font-weight: 700;
+            color: white;
+            padding-left: 7.5rem;
+           
+           
+            
+        }
+        .italic-style{
+            font-size: 30px;
+            font-family: "lato";
+            font-weight: "regular";
+            font-style: italic;
+            color: white;
+            padding-left: 7.5rem;
+           
+              
+        }
+    }
+    
+}
+
+.about-section {
+    background-color: white;
+    .main-text {
+        font-size: 30px;
+        font-family: "lato";
+        font-weight: 700;
+        color: $redcolor;
+        padding-top: 6rem;
+        padding-left: 7.5rem;
+    }
+    .main-text2 {
+        font-size: 26px;
+    font-family: "lato";
+    font-weight: "regular";
+    color: white;
+    padding-left: 8.5rem;
+    }
+    .content-text {
+        font-size: 18px;
+        font-family: "lato";
+        font-weight: "regular";
+        color: $darkcolor;
+        width: 300px;
+        margin-left: 2rem;
+    }
+    .content-text2 {
+        font-size: 16px;
+        font-family: "lato";
+        font-weight: "regular";
+        color: white;
+        width: 300px;
+        margin-left: 2rem;
+    }
+    .img-content {
+        width: 200px;
+        height: 200px;
+        margin-left: 7rem;
+    }
+    .right-section {
+        height:70%;
+        padding-top:7rem;
+        background-color: $redcolor;
+        -webkit-clip-path: polygon(23% 13%, 100% 13%, 100% 100%, 0 100%, 13% 50%);
+        clip-path: polygon(23% 13%, 100% 13%, 100% 100%, 0 100%, 13% 50%);
+        display: table;
+        .pic-text-style{
+            display:table-cell;
+            vertical-align: middle;
+        }
+    }
+    .left-section {
+       
+       
+       
+        
+    }
+}
+.parent-section{
+    background-color: $lightcolor;
+}
